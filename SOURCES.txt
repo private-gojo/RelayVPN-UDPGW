@@ -1,0 +1,6 @@
+relay-rust    https://github.com/Dean6767/RustBadVpnUdpgw  bfd488a62618fc9dd026ac221b2f274a90ffe2b8  MIT (LICENSE)
+relay-legacy  https://github.com/ambrop72/badvpn           07268f02706e78e282e19641b5d1d41e8e89bf31  BSD-3-Clause (COPYING)
+relay-go      https://github.com/mukswilly/udpgw           5eecaa61b366d3e7185dc1a8c4b7afe8d6c7ef35  GPL-3.0 (LICENSE)
+
+relay-legacy: subset only (udpgw + include closure, Linux). Root CMakeLists.txt is a sentinel for
+compile-udpgw.sh and is not a standalone CMake build. Windows/glib/emscripten files excluded.
